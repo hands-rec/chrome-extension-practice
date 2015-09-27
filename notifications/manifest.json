@@ -1,0 +1,16 @@
+{
+  "name": "Rich Notifications Sample",
+  "version": "0.1",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "js/notification.js"
+    ]
+  },
+  "permissions": [
+    "http://*/*", 
+    "https://*/*",
+    "background",
+    "notifications"
+  ]
+}
