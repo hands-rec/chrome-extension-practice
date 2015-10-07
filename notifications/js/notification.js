@@ -6,6 +6,9 @@ var options = {
 };
 
 chrome.notifications.create(
-    '1', 
-    options
-    );
+  '1', 
+  options,
+  function() {
+    new Audio('drum-japanese2.mp3').play();
+  }
+);
